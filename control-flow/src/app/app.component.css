@@ -1,0 +1,49 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  margin-right: 10px;
+}
+
+.grade-container {
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.grade-a {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.grade-b {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.grade-c {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.grade-d {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.grade-f {
+  background-color: #f8d7da;
+  color: #721c24;
+}

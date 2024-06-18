@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="input-container">
+    <label for="percentage">Enter Percentage:</label>
+    <input
+      type="number"
+      id="percentage"
+      [(ngModel)]="userPercentage"
+      (input)="calculateGrade()"
+    />
+  </div>
+
+  <div class="grade-container" [ngClass]="gradeClass">
+    @if(userPercentage >= 90){
+    <div>Your Grade: A</div>
+    }@else if(userPercentage>=80){
+    <div>Your Grade: B</div>
+    }@else if(userPercentage>=70){
+    <div>Your Grade: C</div>
+    }@else if(userPercentage>=60){
+    <div>Your Grade: D</div>
+    }@else{
+    <div>Your Grade: F</div>
+    }
+  </div>
+</div>
